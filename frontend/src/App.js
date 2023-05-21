@@ -1,9 +1,12 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
+import logo from '../src/img/patro-logo.png';
+
 
 function App() {
   return (
     <div className='main_div'>
+      <img src={logo} alt="Logo" className="logopatro" />
       <Navbar />
       <div>
         <div id="main_div">

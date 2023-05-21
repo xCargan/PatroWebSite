@@ -21,3 +21,11 @@
 #main_div {
     margin-top: 7%;
 }
+
+.logopatro {
+    margin-left: 1%;
+    margin-top:1.5%;
+    width: 400px; 
+    height: auto;
+    transform: rotate(-15deg);
+  }
