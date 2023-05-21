@@ -2,10 +2,7 @@
   position: sticky;
   margin-top: -13%;
   margin-left: 5%;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #50a9f9; /* Ajoutez une couleur de fond appropriée */
+  color: white;
 }
 
 .navbar ul {
@@ -26,4 +23,9 @@
 .navbar a {
   text-decoration: none;
   color: #333;
+  color: white;
+}
+
+.navbar a:hover {
+  color: blue;
 }
