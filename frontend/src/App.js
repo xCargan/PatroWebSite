@@ -10,19 +10,28 @@ function App() {
       <Navbar />
       <div>
         <div>
-          <section id="section1" class="section">
+          <section id="apropos" class="section">
             <div>
               <p>section1</p>
+              <p>A propos</p>
             </div>
           </section>
-          <section id="section2" class="section">
+          <section id="agenda" class="section">
             <div>
               <p>section2</p>
+              <p>Agenda</p>
             </div>
           </section>
-          <section id="section3"  >
+          <section id="staff"  >
             <div>
               <p>section3</p>
+              <p>Staff</p>
+            </div>
+          </section>
+          <section id="infos"  >
+            <div>
+              <p>section4</p>
+              <p>Informations</p>
             </div>
           </section>
         </div>

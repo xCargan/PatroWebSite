@@ -5,9 +5,10 @@ function Navbar() {
     <div>
         <div class="navbar">
             <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
+                <li><a href="#apropos">A Propos</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#infos">Infos</a></li>
             </ul>
         </div>
     </div>
