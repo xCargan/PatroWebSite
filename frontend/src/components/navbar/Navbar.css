@@ -13,6 +13,7 @@
     align-items: center; /* Centre les éléments verticalement */
     margin: 0;
     padding: 0;
+    font-size: 150%;
   }
   
   .navbar li {

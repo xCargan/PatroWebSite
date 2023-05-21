@@ -3,19 +3,19 @@
 }
 
 #apropos {
-    background-color: green;
+    background-color: rgb(241, 241, 241);
 }
 
 #agenda {
-    background-color: red;
+    background-color: rgb(233, 233, 233);
 }
 
 #staff {
-    background-color: yellow;
+    background-color: rgb(223, 223, 223);
 }
 
 #infos {
-    background-color: blue;
+    background-color: rgb(206, 206, 206);
 }
 
 #main_div {
