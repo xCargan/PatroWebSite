@@ -1,28 +1,29 @@
 .navbar {
-    position: fixed;
-    top: 2.5%;
-    right: -40%;
-    width: 100%;
-  }
-  
+  position: sticky;
+  margin-top: -13%;
+  margin-left: 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #50a9f9; /* Ajoutez une couleur de fond appropriée */
+}
 
-  .navbar ul {
-    list-style: none;
-    display: inline-flex; /* Utilise inline-flex pour aligner les éléments horizontalement */
-    justify-content: center; /* Centre les éléments horizontalement */
-    align-items: center; /* Centre les éléments verticalement */
-    margin: 0;
-    padding: 0;
-    font-size: 150%;
-  }
-  
-  .navbar li {
-    margin: 0 10px;
-    padding: 50px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #333;
-  }
-  
+.navbar ul {
+  list-style: none;
+  display: flex; /* Utilisez flex pour aligner les éléments horizontalement */
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem; /* Utilisez une unité relative pour la taille de police */
+}
+
+.navbar li {
+  margin: 0 10px;
+  padding: 50px; /* Réduisez l'espacement pour une meilleure réactivité */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}

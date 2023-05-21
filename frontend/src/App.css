@@ -1,31 +1,99 @@
-.main_div {
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+#main_section {
+    margin-top: 7%;
+}
 
+.main_div {
+    
+    background-color: #50a9f9;
+    
+}
+
+#logopatro {
+    position:sticky;
+    margin-left: 1%;
+    margin-top:1.5%;
+    width: 22%; 
+    z-index: 5;
+    transform: rotate(-12deg);
+    z-index: 5;
+    
+}
+
+
+/* Section à propos */
+.pivertpatro {
+    margin-left: 72%;
+    margin-top: -0.4%;
+    width: 23.5%; 
+    height: auto;
 }
 
 #apropos {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(184, 184, 184);
+    margin-top: 1%;
+    height: 200%;
+    background-image: url('../src/img/background_section1.jpg');
+    background-repeat: none;
+    background-position-y: 10%;
+    color : blue;
 }
 
+#paragraphe1_apropos {
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#paragraphe2_apropos {
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#paragraphe3_apropos {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#paragraphe4_apropos {
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#paragraphe5_apropos {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* Section agenda */
 #agenda {
     background-color: rgb(233, 233, 233);
 }
-
+ /* Section staff */
 #staff {
     background-color: rgb(223, 223, 223);
 }
 
+/* Section info */
 #infos {
     background-color: rgb(206, 206, 206);
-}
-
-#main_div {
-    margin-top: 7%;
-}
-
-.logopatro {
-    margin-left: 1%;
-    margin-top:1.5%;
-    width: 400px; 
-    height: auto;
-    transform: rotate(-12deg);
 }
