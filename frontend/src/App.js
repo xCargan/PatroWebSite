@@ -11,21 +11,11 @@ import facebook from '../src/img/facebook-logo.png'
 
 
 
-
-
 function App() {
   return (
     <div className='main_div'>
-      <div id="logopatro">
-        <img src={logo} alt="Logo" />
-      </div>
-      <Navbar />
-      <a href="https://www.facebook.com/patro.demarbais">
-        <img src={facebook} id="facebook-logo" alt="facebook"></img>
-      </a>
       <section id="apropos" class="section">
         <div>
-          <img src={pivert} alt="Pivert" className="pivertpatro" />
             <div id="paragraphe1_apropos">
               <p>
                 Bienvenue au Patro!

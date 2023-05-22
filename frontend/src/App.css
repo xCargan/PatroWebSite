@@ -1,18 +1,10 @@
 /* Main DIV // DIV body */
-
-body {
+* {
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-family: 'Poppins';
 }
-
-html {
-    background-color: #4ba5fb;
-}
-  
-#main_section {
-    margin-top: 7%;
-}
-
 
 .main_div {
     height: 100%;
@@ -31,7 +23,7 @@ html {
 
 #facebook-logo {
     position : absolute;
-    width: 50px;
+    width: 3%;
     margin-left: 90%;
     margin-top: -5%;
     /*
@@ -40,121 +32,61 @@ html {
     */
 }
 
-
-/* Section à propos */
-.pivertpatro {
+#pivertpatro {
+    position: absolute;
     margin-left: 72%;
     margin-top: -5.2%;
     width: 23.5%; 
     height: auto;
 }
 
+/* Section à propos */
 #apropos {
     background-color: rgb(184, 184, 184);
-    margin-top: 6%;
-    height: 200%;
-    background-image: url('../src/img/background_section1.jpg');
-    background-repeat: none;
-    background-position-y: 10%;
-    color : blue;
+    margin-top: 2%;
+    height: 500px;
 }
 
 #paragraphe1_apropos {
     position: absolute;
-    margin-top: -26%;
-    margin-left: 30%;
-    width: 40%;
-    text-align: center;
-    animation: apparition1 3s ease-out;
-}
-
-@keyframes apparition1 {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Styles pour le div spécifique */
 }
 
 #paragraphe2_apropos {
     position: absolute;
-    margin-top: -22%;
-    margin-left: 30%;
-    width: 40%;
-    text-align: center;
-    animation: apparition2 6s ease-out;
-}
-
-@keyframes apparition2 {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Styles pour le div spécifique */
+}   
 
 #paragraphe3_apropos {
-    position: absolute;
-    margin-top: -18%;
-    margin-left: 30%;
     width: 40%;
+    margin-left: 30%;
     text-align: center;
-    animation: apparition3 9s ease-out;
-}
-
-@keyframes apparition3 {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+} 
 
 #paragraphe4_apropos {
-    position: absolute;
-    margin-top: -14%;
-    margin-left: 30%;
     width: 40%;
+    margin-left: 30%;
     text-align: center;
-    animation: apparition4 12s ease-out;
-}
-
-@keyframes apparition4 {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+} 
 
 #paragraphe5_apropos {
-    position: absolute;
-    margin-top: -10%;
-    margin-left: 30%;
     width: 40%;
+    margin-left: 30%;
     text-align: center;
-    animation: apparition5 15s ease-out;
-}
+} 
 
-@keyframes apparition5 {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+
 
 
 /* Section agenda */
 #agenda {
     background-color: rgb(233, 233, 233);
-    position: absolute;
-    margin-top: 0;
 }
  /* Section staff */
 #staff {
