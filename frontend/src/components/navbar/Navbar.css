@@ -3,9 +3,10 @@
 
 :root{
     --mainColor:red;
+	--opacity: rgba(0, 0, 0, 0.6);
     --mainColorLight: pink;
     --secondaryColor: blue;
-    --textColor: black;
+    --textColor: white;
 }
 
 header {
@@ -14,10 +15,13 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background-color: var(--mainColor);
+    background-color: var(--opacity);
     color: var(--textColor);
-    
+	height: 80px;
+	font-size: 130%;
+	font-family: 'Titillium Web';
 }
+
 
 nav a{
     margin: 0 2rem;
@@ -26,8 +30,19 @@ nav a{
 }
 
 nav a:hover{
-    color: var(--secondaryColor);
+    color: #F4F17E;
+	transition: border-bottom 1s;
+	border-bottom: 1px solid #F4F17E;
 }
+
+@keyframes underline-animation {
+	0% {
+	  width: 0;
+	}
+	100% {
+	  width: 100%;
+	}
+  }
 
 header .nav-btn {
     padding: 5px;
@@ -39,12 +54,14 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+    
 }
 
-@media only screen and (max-width: 1024px){
-
+@media only screen and (max-width: 1304px){
+	
     header {
         height: 70px;
+        background-color: transparent;
     }
 
     header .nav-btn {
@@ -63,7 +80,7 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: var(--mainColor);
+        background-color: var(--opacity);
         transform: translateY(-100vh);
     }
 
@@ -97,7 +114,6 @@ header .nav-btn {
         top: 0.34rem;
         right: 2.2rem;
     }
-
 }
 
 @media only screen and (max-width: 330px){

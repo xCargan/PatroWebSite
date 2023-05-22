@@ -41,11 +41,18 @@
     height: auto;
 }
 
+#patro-marbais-logo {
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 1%;
+    transform: rotate(-13deg);
+}
+
 /* Section à propos */
 #apropos {
-    background-color: rgb(184, 184, 184);
-    margin-top: 2%;
-    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: -10%;
+    height: 765px;
 }
 
 #paragraphe1_apropos {
@@ -85,7 +92,8 @@
 
 /* Section agenda */
 #agenda {
-    background-color: rgb(233, 233, 233);
+    background-color: #F4F17E;
+    width: 80%;
 }
  /* Section staff */
 #staff {
@@ -95,4 +103,11 @@
 /* Section info */
 #infos {
     background-color: rgb(206, 206, 206);
+}
+
+html {
+    background-image: url('./img/test3.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

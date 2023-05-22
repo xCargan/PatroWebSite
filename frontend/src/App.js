@@ -1,5 +1,6 @@
 //import style
 import './App.css';
+import LogoPatro from './components/logo-patro/LogoPatro';
 
 //import component
 import Navbar from './components/navbar/Navbar.js';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className='main_div'>
       <Navbar />
+      <LogoPatro />
       <section id="apropos" class="section">
         <div>
             <div id="paragraphe1_apropos">
