@@ -42,6 +42,11 @@ header .nav-btn {
 }
 
 @media only screen and (max-width: 1024px){
+
+    header {
+        height: 70px;
+    }
+
     header .nav-btn {
         visibility: visible;
         opacity: 1;
@@ -59,7 +64,6 @@ header .nav-btn {
         justify-content: center;
         gap: 1.5rem;
         background-color: var(--mainColor);
-        transition: 1s;
         transform: translateY(-100vh);
     }
 
@@ -69,11 +73,46 @@ header .nav-btn {
 
     nav .nav-close-btn {
         position: absolute;
-        top: 2rem;
-        right: 2rem;
+        top: 0.75rem;
+        right: 1.97rem;
     }
 
     nav a{
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    header {
+        height: 60px;  
+    }
+
+    header .nav-btn {
+        margin-top: 1%;
+        margin-right: -5%;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 0.34rem;
+        right: 2.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 330px){
+    header {
+        height: 50px;  
+    }
+
+    header .nav-btn {
+        margin-top: 2%;
+        margin-right: -8%;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: -0.1rem;
+        right: 2.3rem;
     }
 }

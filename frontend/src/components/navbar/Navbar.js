@@ -10,7 +10,7 @@ function Navbar() {
   }
   return (
     <header>
-      <img src={logo} alt="logo" className="logo-patro"/>
+      <h3>Logo</h3>
       <nav ref={navRef}>
         <a className="a_link" href="#apropos">À Propos</a>
         <a className="a_link" href="#agenda">Agenda</a>
