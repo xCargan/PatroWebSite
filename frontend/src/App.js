@@ -2,18 +2,14 @@
 import './App.css';
 
 //import component
-import Navbar from './components/navbar/Navbar';
-
-//import img
-import logo from '../src/img/patro-logo.png';
-import pivert from '../src/img/pivert.png';
-import facebook from '../src/img/facebook-logo.png'
+import Navbar from './components/navbar/Navbar.js';
 
 
-
+                                                                  
 function App() {
   return (
     <div className='main_div'>
+      <Navbar />
       <section id="apropos" class="section">
         <div>
             <div id="paragraphe1_apropos">

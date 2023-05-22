@@ -1,9 +1,10 @@
+
 /* Main DIV // DIV body */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     list-style: none;
-    font-family: 'Poppins';
 }
 
 .main_div {
@@ -48,7 +49,6 @@
 }
 
 #paragraphe1_apropos {
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -56,7 +56,6 @@
 }
 
 #paragraphe2_apropos {
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

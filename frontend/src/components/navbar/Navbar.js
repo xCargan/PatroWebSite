@@ -1,13 +1,28 @@
+import {useRef} from "react"
 import './Navbar.css'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import logo from '../../../src/img/patro-logo.png';
 
 function Navbar() {
-
+  const navRef = useRef();
+  const showNavbar= () => {
+    navRef.current.classList.toggle("responsive_nav")
+  }
   return (
     <header>
-        <a href="#apropos">À Propos</a>
-        <a href="#agenda">Agenda</a>
-        <a href="#staff">Staff</a>
-        <a href="#infos">Infos</a>
+      <img src={logo} alt="logo" className="logo-patro"/>
+      <nav ref={navRef}>
+        <a className="a_link" href="#apropos">À Propos</a>
+        <a className="a_link" href="#agenda">Agenda</a>
+        <a className="a_link" href="#staff">Staff</a>
+        <a className="a_link" href="#infos">Infos</a>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes/>
+        </button>
+      </nav>
+      <button className="nav-btn" onClick={showNavbar}>
+        <FaBars />
+      </button>
     </header>
   )
 }
