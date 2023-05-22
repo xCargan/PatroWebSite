@@ -88,6 +88,10 @@ header .nav-btn {
         transform: none;
     }
 
+    header .nav-btn {
+        color: whitesmoke;
+    }
+
     nav .nav-close-btn {
         position: absolute;
         top: 0.75rem;

@@ -20,10 +20,18 @@ function Navbar() {
   return (
     <header>
       <nav ref={navRef}>
-        <a className="a_link" href="#apropos">À Propos</a>
-        <a className="a_link" href="#agenda">Agenda</a>
-        <a className="a_link" href="#staff">Staff</a>
-        <a className="a_link" href="#infos">Infos</a>
+        <a className="a_link" href="#apropos" onClick={hideNavbar}>
+          À Propos
+        </a>
+        <a className="a_link" href="#agenda" onClick={hideNavbar}>
+          Agenda
+        </a>
+        <a className="a_link" href="#staff" onClick={hideNavbar}>
+          Staff
+        </a>
+        <a className="a_link" href="#infos" onClick={hideNavbar}>
+          Infos
+        </a>
         <button className="nav-btn nav-close-btn" onClick={hideNavbar}>
           <FaTimes/>
         </button>
