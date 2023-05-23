@@ -4,6 +4,7 @@ import './App.css';
 //import component
 import Navbar from './components/navbar/Navbar.js';
 import PivertNavbar from '../src/img/pivert-navbar.png'
+import SocialNetwork from '../src/components/socialNetwork/SocialNetwork'
 
 
                                                                   
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className='main_div'>
     <Navbar />
+    <SocialNetwork />
     <img src={PivertNavbar} alt="Pivert-Logo" className="PivertNavbar" />
     <p id="p1_accueil">Le Patro, ce sont des animatrices et animateurs bénévoles qui s’engagent, prennent des responsabilités et participent à une société plus solidaire. </p>
     <p id="p2_accueil">Ils consacrent de nombreuses heures à cette passion et se forment pour offrir une animation de qualité.</p>
@@ -28,6 +30,12 @@ function App() {
           <span></span>
           Contact
         </button>
+        </section>
+        <section id="apropos" class="section">
+          <div>
+            <p>section1</p>
+            <p>A propos</p>
+          </div>
         </section>
         <section id="agenda" class="section">
           <div>

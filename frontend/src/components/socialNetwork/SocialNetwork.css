@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin: 5%;
+    color: white;
+}
+
+#InstagramLogo {
+    width: 13%;
+}
+
+#FacebookLogo {
+    width : 14%
+}
+
+#GallerieLogo {
+    width: 13%;
+}

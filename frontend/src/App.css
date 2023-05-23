@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    overflow-x: hidden;
 }
 
 
@@ -15,6 +16,12 @@
     margin-top: 1000px;
     margin-left: 1000px;
     z-index: 100;
+}
+
+#social_network {
+    position: absolute;
+    top: 28%;
+    right: -17%;
 }
 
 /* Section à propos */
@@ -123,11 +130,17 @@ span {
 
 
 
+/* Section a propos */
+#apropos {
+    background-color: red;
+    margin-top: 9.763366222382%;
+}
+
 /* Section agenda */
 #agenda {
-    background-color: red;
-    margin-top: 12%;
+    background-color: yellow;
 }
+
  /* Section staff */
 #staff {
     background-color: green;
@@ -140,7 +153,7 @@ span {
 
 html {
     /* background : linear-gradient(245.59deg, #186320 0%, #3e8344 28.53%, #82954d 75.52%); */ 
-    background-image:linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.3)), url('./img/test3.jpg');
+    background-image:linear-gradient(rgba(0,0,0, 0.4),rgba(0,0,0, 0.4)), url('./img/background.jpg');
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     background-position: center top;
     background-repeat: no-repeat;
