@@ -12,8 +12,6 @@ function App() {
   return (
     <div className='main_div'>
       <Navbar />
-      <LogoPatro />
-      <Pivert/>
       <section id="apropos" class="section">
         <div>
             <div id="paragraphe1_apropos">

@@ -43,7 +43,10 @@
 #apropos {
     background-color: rgba(0, 0, 0, 0);
     margin-top: -10%;
-    height: 765px;
+    height: 865px;
+    width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #apropos div {
