@@ -1,6 +1,7 @@
 //import style
 import './App.css';
 import LogoPatro from './components/logo-patro/LogoPatro';
+import Pivert from './components/img-pivert/ImgPivert'
 
 //import component
 import Navbar from './components/navbar/Navbar.js';
@@ -12,6 +13,7 @@ function App() {
     <div className='main_div'>
       <Navbar />
       <LogoPatro />
+      <Pivert/>
       <section id="apropos" class="section">
         <div>
             <div id="paragraphe1_apropos">

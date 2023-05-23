@@ -19,14 +19,14 @@ header {
     color: var(--textColor);
 	height: 80px;
 	font-size: 130%;
-	font-family: 'Titillium Web';
+	font-family: 'Titillium Web';	
 }
 
 
 nav a{
     margin: 0 2rem;
     color: var(--textColor);
-    text-decoration: none;
+    text-decoration: none
 }
 
 nav a:hover{
