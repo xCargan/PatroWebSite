@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 /* Main DIV // DIV body */
 * {
     margin: 0;
@@ -28,7 +29,7 @@
     top : 55%;
     left: 15%;
     font-size: 700%;
-    color: white;
+    color: rgb(223, 255, 78);
     font-family: 'Pangolin', cursive;
 }
 
@@ -50,7 +51,22 @@
     height: 6%;
     border-radius: 25px;
     font-size: 90%;
+    border: none;
+    font-family: 'Pangolin', cursive;
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(223, 255, 78);
 }
+
+#welcome_on_site {
+    position: absolute;
+    top : 51%;
+    left: 15.5%;
+    font-family: 'Titillium Web';
+    color: rgb(223, 255, 78);
+    font-size: 25px;
+}
+
 
 
 /* Section agenda */

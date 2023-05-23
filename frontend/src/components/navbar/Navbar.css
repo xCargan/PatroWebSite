@@ -6,25 +6,27 @@
 	--opacity: rgba(0, 0, 0, 0.6);
     --mainColorLight: pink;
     --secondaryColor: blue;
-    --textColor: white;
+    --textColor: rgb(223, 255, 78);
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
     background-color: var(--opacity);
     color: var(--textColor);
-	height: 80px;
-	font-size: 130%;
-	font-family: 'Titillium Web';	
+    height: 80px;
+    font-size: 130%;
+    font-family: 'Titillium Web';
 }
 
+nav {
+    margin-left: auto;
+}
 
 nav a{
-    margin: 0 2rem;
+    margin: 0 4rem;
     color: var(--textColor);
     text-decoration: none
 }
