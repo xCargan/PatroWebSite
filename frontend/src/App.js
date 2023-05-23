@@ -3,7 +3,6 @@ import './App.css';
 
 //import component
 import Navbar from './components/navbar/Navbar.js';
-import Pivert from './components/img-pivert/ImgPivert'
 import PivertNavbar from '../src/img/pivert-navbar.png'
 
 
