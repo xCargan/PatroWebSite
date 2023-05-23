@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import './Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import LogoPatro from "../logo-patro/LogoPatro";
 
 function Navbar() {
   const navRef = useRef();

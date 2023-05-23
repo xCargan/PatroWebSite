@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 /* Main DIV // DIV body */
 * {
     margin: 0;
@@ -13,84 +13,44 @@
 
 
 /* Element dans la page */
-#facebook-logo {
-    position : absolute;
-    width: 3%;
-    margin-left: 90%;
-    margin-top: -5%;
-    /*
-    margin-left: 1700px;
-    margin-top: -90px;
-    */
-}
 
-#pivertpatro {
-    position: absolute;
-    margin-left: 72%;
-    margin-top: -5.2%;
-    width: 23.5%; 
-    height: auto;
-}
-
-#patro-marbais-logo {
-    width: 20%;
-    margin-top: 1%;
-    margin-left: 1%;
-    transform: rotate(-13deg);
-}
 
 /* Section à propos */
-#apropos {
+#accueil {
     background-color: rgba(0, 0, 0, 0);
     margin-top: -10%;
     height: 865px;
-    width: 800px; 
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
-#apropos div {
-    width: 500px;
+#main_title {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top : 55%;
+    left: 15%;
+    font-size: 700%;
+    color: white;
+    font-family: 'Pangolin', cursive;
 }
 
-
-#paragraphe1_apropos {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Styles pour le div spécifique */
+#contact_button {
+    position: absolute;
+    top : 75%;
+    left: 25%;
+    margin-left: 15%;
 }
 
-#paragraphe2_apropos {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Styles pour le div spécifique */
-}   
+#discovert_button {
+    position: absolute;
+    top : 75%;
+    left: 15%;
+}
 
-#paragraphe3_apropos {
-    width: 40%;
-    margin-left: 30%;
-    text-align: center;
-} 
-
-#paragraphe4_apropos {
-    width: 40%;
-    margin-left: 30%;
-    text-align: center;
-} 
-
-#paragraphe5_apropos {
-    width: 40%;
-    margin-left: 30%;
-    text-align: center;
-} 
-
-
+.accueil_button {
+    width: 20%;
+    height: 6%;
+    border-radius: 25px;
+    font-size: 90%;
+}
 
 
 /* Section agenda */
@@ -111,7 +71,8 @@
 }
 
 html {
-    background : linear-gradient(245.59deg, #186320 0%, #3e8344 28.53%, #82954d 75.52%);
+    /* background : linear-gradient(245.59deg, #186320 0%, #3e8344 28.53%, #82954d 75.52%); */ 
+    background-image: url('./img/test3.jpg');
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     background-position: center top;
     background-repeat: no-repeat;

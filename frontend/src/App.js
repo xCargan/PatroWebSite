@@ -1,10 +1,9 @@
 //import style
 import './App.css';
-import LogoPatro from './components/logo-patro/LogoPatro';
-import Pivert from './components/img-pivert/ImgPivert'
 
 //import component
 import Navbar from './components/navbar/Navbar.js';
+import Pivert from './components/img-pivert/ImgPivert'
 
 
                                                                   
@@ -12,34 +11,19 @@ function App() {
   return (
     <div className='main_div'>
       <Navbar />
-      <section id="apropos" class="section">
+      <section id="accueil" class="section">
         <div>
-            <div id="paragraphe1_apropos">
-              <p>
-                Bienvenue au Patro!
-              </p>
-            </div>
-            <div id="paragraphe2_apropos">
-              <p>
-                Un lieu magique où les sourires et les rires résonnent tout au long de l'année ! Si vous êtes à la recherche d'aventures inoubliables, d'amitiés durables et de découvertes passionnantes, vous êtes au bon endroit.
-              </p>
-            </div>
-            <div id="paragraphe3_apropos">
-              <p>
-                Au Patro, chaque journée est remplie de jeux, de sports, d'activités artistiques et d'excursions palpitantes. Nous encourageons l'imagination, favorisons l'apprentissage ludique et créons un environnement sûr où chaque enfant peut s'épanouir.
-              </p>
-            </div>
-            <div id="paragraphe4_apropos">
-              <p>
-                Nos animateurs dévoués sont là pour guider et soutenir chaque enfant dans son développement personnel. Ils cultivent l'esprit d'équipe, le respect des autres et les valeurs qui dureront toute une vie.
-              </p>
-            </div>
-            <div id="paragraphe5_apropos">
-              <p>
-                Que vous soyez un parent à la recherche d'un lieu de confiance pour votre enfant ou un jeune avide de nouvelles expériences, rejoignez-nous au Patro. Ensemble, nous créerons des souvenirs précieux et partagerons des moments inoubliables !
-              </p>
-            </div>
-          </div>
+          <p id="main_title">
+            Patro de Marbais
+          </p>
+          <button id="discovert_button" className='accueil_button'>
+            Découvrir
+          </button>
+          <button id="contact_button" className='accueil_button'>
+            Contact
+          </button>
+          <Pivert />
+        </div>
         </section>
         <section id="agenda" class="section">
           <div>
