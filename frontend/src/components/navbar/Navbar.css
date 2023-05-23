@@ -2,10 +2,7 @@
 @import url('https://fonts.google.com/share?selection.family=Poppins:ital,wght@1,900');
 
 :root{
-    --mainColor:red;
 	--opacity: rgba(0, 0, 0, 0.6);
-    --mainColorLight: pink;
-    --secondaryColor: blue;
     --textColor: rgb(223, 255, 78);
 }
 
@@ -28,23 +25,23 @@ nav {
 nav a{
     margin: 0 4rem;
     color: var(--textColor);
-    text-decoration: none
+    text-decoration: none;
+    position: relative;
 }
 
 nav a::after {
-    content: "";
-    position: absolute;
-    width: 0%;
+    content: '';
     height: 2px;
-    background-color: #000;
-    bottom: -4px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
+    width: 0;
+    background: var(--textColor);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
 }
 
 nav a:hover::after {
-    width: 100%;
+   width: 100%; 
 }
 
 header .nav-btn {
@@ -57,8 +54,9 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
-    
 }
+
+
 
 @media only screen and (max-width: 1304px){
 	

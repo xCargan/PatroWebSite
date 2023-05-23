@@ -30,7 +30,7 @@ function Navbar() {
           Staff
         </a>
         <a className="a_link" href="#infos" onClick={hideNavbar}>
-          Infos
+          Informations
         </a>
         <button className="nav-btn nav-close-btn" onClick={hideNavbar}>
           <FaTimes/>
