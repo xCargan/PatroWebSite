@@ -14,7 +14,12 @@
 
 
 /* Element dans la page */
-
+#NavbarPivert {
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 1000px;
+    z-index: 100;
+}
 
 /* Section à propos */
 #accueil {
@@ -67,6 +72,14 @@
     font-size: 25px;
 }
 
+.PivertNavbar {
+    position: absolute;
+    height: 9.8%;
+    margin-top: -4.48%;
+    margin-left: 5%;
+    transform: scaleX(-1.4);
+    transform: rotate(deg);
+}
 
 
 /* Section agenda */

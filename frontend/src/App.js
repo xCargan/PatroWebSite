@@ -4,6 +4,7 @@ import './App.css';
 //import component
 import Navbar from './components/navbar/Navbar.js';
 import Pivert from './components/img-pivert/ImgPivert'
+import PivertNavbar from '../src/img/pivert-navbar.png'
 
 
                                                                   
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className='main_div'>
     <Navbar />
+    <img src={PivertNavbar} alt="Pivert-Logo" className="PivertNavbar" />
     <div>
       <section id="accueil" class="section">
         <p id="welcome_on_site">Bienvenue dans le monde du</p>
