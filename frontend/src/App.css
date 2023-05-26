@@ -35,7 +35,7 @@
 #main_title {
     position: absolute;
     top: 45%;
-    left: 15%;
+    left: 9.9%;
     font-size: 7vw;
     color: rgb(223, 255, 78);
     font-family: 'Pangolin', cursive;
@@ -44,25 +44,25 @@
 #contact_button {
     position: absolute;
     top : 75%;
-    left: 25%;
+    left: 22%;
     margin-left: 15%;
 }
 
 #discovert_button {
     position: absolute;
     top : 75%;
-    left: 15%;
+    left: 10%;
 }
 
 .accueil_button {
-    width: 20%;
+    width: 21%;
     height: 6%;
     border-radius: 25px;
     font-size: 90%;
     border: none;
     font-family: 'Pangolin', cursive;
     font-weight: lighter;
-    background: rgba(0, 0, 0, 0.6);
+    background: transparent;
     color: rgb(223, 255, 78);
     position: relative;
     overflow: hidden;
@@ -83,7 +83,7 @@ span {
 
 .accueil_button:hover span {
     width: 100%;
-    background-color: rgb(90, 90, 90);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .accueil_button:hover {
@@ -92,8 +92,8 @@ span {
 
 #welcome_on_site {
     position: absolute;
-    top: 41%;
-    left: 15.5%;
+    top: 42%;
+    left: 10.5%;
     font-size: 1.5vw;
     font-family: 'Titillium Web';
     color: rgb(223, 255, 78);
@@ -111,7 +111,7 @@ span {
 #p1_accueil {
     position: absolute;
     top : 60%;
-    left: 15.7%;
+    left: 10.7%;
     color: white;
     font-family: 'Titillium Web';
     font-size: 1vw;
@@ -120,8 +120,8 @@ span {
 
 #p2_accueil {
     position: absolute;
-    top : 65%;
-    left: 15.7%;
+    top : 66%;
+    left: 10.7%;
     color: white;
     font-family: 'Titillium Web';
     font-size: 1vw;

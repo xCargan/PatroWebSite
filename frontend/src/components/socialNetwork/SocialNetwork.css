@@ -14,9 +14,58 @@ li {
 }
 
 #FacebookLogo {
-    width : 14%
+    position: absolute;
+    color : white;
+    top : 2%;
+    width: 100%;
+    font-size: 400%;
+}
+
+#FacebookLogo:hover {
+    position: absolute;
+    color : rgb(223, 255, 78);
+    top : 2%;
+    width: 100%;
+    font-size: 400%;
+}
+
+#InstagramLogo {
+    position: absolute;
+    color: white;
+    top: 42%;
+    width: 100%;
+    font-size: 400%;
+}
+
+#InstagramLogo:hover {
+    position: absolute;
+    color: rgb(223, 255, 78);
+    top: 42%;
+    width: 100%;
+    font-size: 400%;
 }
 
 #GallerieLogo {
-    width: 13%;
+    position: absolute;
+    color: white;
+    top: 82%;
+    width: 100%;
+    font-size: 400%;
+}
+
+#GallerieLogo:hover {
+    position: absolute;
+    color: rgb(223, 255, 78);
+    top: 82%;
+    width: 100%;
+    font-size: 400%;
+}
+
+#div_network {
+    position : absolute;
+    top : 25%;
+    right: 5%;
+    height: 50%;
+    width: 10%;
+    background-color: f;
 }

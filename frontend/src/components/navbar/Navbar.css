@@ -4,6 +4,7 @@
 :root{
 	--opacity: rgba(0, 0, 0, 0.6);
     --textColor: rgb(223, 255, 78);
+    --textWhite: whitesmoke;
 }
 
 header {
@@ -25,10 +26,14 @@ nav {
 
 nav a{
     margin: 0 4rem;
-    color: var(--textColor);
+    color: var(--textWhite);
     text-decoration: none;
     position: relative;
     overflow-y: hidden;
+}
+
+nav a:hover {
+    color: var(--textColor);
 }
 
 nav a::after {
